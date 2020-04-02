@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blackjack Demo</title>
+
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+	<script src="main.js"></script>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="welcome">
+		<h2>Blackjack Game [Demo]</h2>
+		<button class="start-game">START</button>
+	</div>
+
+	<div id="root">
+		<div class="dealers-cards">
+			<div class="card place-1">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+
+			<div class="card place-2">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+
+			<div class="card place-3">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+		</div>
+
+		<div class="deck">
+			<div class="card">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+		</div>
+
+		<div class="players-cards">
+			<div class="card place-a">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+
+			<div class="card place-b">
+				<div class="card__face card__face--front"></div>
+				<div class="card__face card__face--back"></div>
+			</div>
+		</div>
+
+		<button class="hit-btn">HIT</button>
+	</div>
+
+</body>
+</html>
